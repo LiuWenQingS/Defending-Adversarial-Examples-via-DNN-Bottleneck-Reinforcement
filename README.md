@@ -1,5 +1,7 @@
 # Defending-Adversarial-Examples-via-DNN-Bottleneck-Reinforcement
-Code of Defending Adversarial Examples via DNN Bottleneck Reinforcement
+Code of Defending Adversarial Examples via DNN Bottleneck Reinforcement.
+
+If you have any questions, please send email to liuwenqing@tongji.edu.cn
 
 1.data
 
@@ -21,7 +23,13 @@ Code of Defending Adversarial Examples via DNN Bottleneck Reinforcement
 
 2.attack
 
-  To confuse the CNN, many method proposed to cheat add small perturbation 
+  To confuse the CNN, many method proposed to cheat add small perturbation on pixels of images such as FGSM.
+  
+  During our work, we use FGSM SGD BIM C&W DNN to train our model or test our model.
 
 3.defense
+  
+  Think of the advantages of the Autoencoder, we try to combine the Classifier and Autoencoder to enable the ablility of 
+  
+denoising of the source classifier.
 
